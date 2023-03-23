@@ -1,0 +1,17 @@
+{
+  "name": "public_servers",
+  "version": "1.0.0",
+  "description": "A alternative to BD's official public servers",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./build.js"
+  },
+  "author": "Doggybootsy",
+  "license": "MIT",
+  "dependencies": {
+    "@types/betterdiscord": "github:zerthox/betterdiscord-types",
+    "@types/react": "^18.0.27",
+    "esbuild": "^0.17.6"
+  }
+}
